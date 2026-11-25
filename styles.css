@@ -3,7 +3,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     "display display display display"
-    "display display display display"
     ".      clear  backspace divide"
     "seven  eight  nine      multiply"
     "four   five   six       subtract"
@@ -19,6 +18,7 @@
 #display {
     grid-area: display;
     border: 1px solid black;
+    font-size: large;
 }
 
 #clear {
